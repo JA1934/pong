@@ -13,7 +13,7 @@ input.onButtonPressed(Button.B, function () {
 let paddleB: game.LedSprite = null
 let paddleA: game.LedSprite = null
 paddleA = game.createSprite(2, 4)
-paddleB = game.createSprite(3, 3)
+paddleB = game.createSprite(3, 4)
 let ball = game.createSprite(randint(0, 4), 0)
 let directionY = 1
 let directionX = randint(-1, 1)
